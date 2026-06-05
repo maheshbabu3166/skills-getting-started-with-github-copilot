@@ -70,6 +70,33 @@ section h3 {
   color: #0066cc;
 }
 
+.participants-section {
+  margin-top: 15px;
+  padding-top: 12px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.participants-section h5 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.participant-list {
+  list-style-type: disc;
+  margin-left: 18px;
+  color: #444;
+}
+
+.participant-item {
+  margin-bottom: 6px;
+}
+
+.no-participants {
+  color: #666;
+  font-style: italic;
+}
+
 .activity-card p {
   margin-bottom: 8px;
 }
