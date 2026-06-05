@@ -34,6 +34,10 @@ document.addEventListener("DOMContentLoaded", () => {
             <h5>Participants</h5>
             ${participantsHtml}
           </div>
+        `;
+
+        activitiesList.appendChild(activityCard);
+
         // Add option to select dropdown
         const option = document.createElement("option");
         option.value = name;
